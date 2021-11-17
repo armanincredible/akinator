@@ -1,0 +1,16 @@
+	digraph dump_graph{
+	rankdir=HR;
+	INFO0000000000CC13E0 [shape = record, label = " <left> LEFT | <name> ANIMAL | <right> RIGHT"];
+	INFO0000000000CC1790 [shape = record, label = " <left> LEFT | <name> GEY | <right> RIGHT"];
+	INFO0000000000CC13E0: <left> -> INFO0000000000CC1790: <name> [label = "yes"]
+	INFO0000000000CC17D0 [shape = record, label = " <left> LEFT | <name> GUSHIN | <right> RIGHT"];
+	INFO0000000000CC1790: <left> -> INFO0000000000CC17D0: <name> [label = "yes"]
+	INFO0000000000CC1810 [shape = record, label = " <left> LEFT | <name> BIGPENIS | <right> RIGHT"];
+	INFO0000000000CC1790: <right> -> INFO0000000000CC1810: <name> [label = "no"]
+	INFO0000000000CC1850 [shape = record, label = " <left> LEFT | <name> PETROVIC | <right> RIGHT"];
+	INFO0000000000CC1810: <left> -> INFO0000000000CC1850: <name> [label = "yes"]
+	INFO0000000000CC1890 [shape = record, label = " <left> LEFT | <name> MARAT | <right> RIGHT"];
+	INFO0000000000CC1810: <right> -> INFO0000000000CC1890: <name> [label = "no"]
+	INFO0000000000CC18D0 [shape = record, label = " <left> LEFT | <name> GOD | <right> RIGHT"];
+	INFO0000000000CC13E0: <right> -> INFO0000000000CC18D0: <name> [label = "no"]
+	}

@@ -1,0 +1,11 @@
+Stack haven't Protect
+
+Stack <PK5Stack> Have NO_ERRORS at akinator.cpp at (definition_tree_elem:212) 
+
+Capacity = 2
+Size = 0
+Pointer of data <Pc> = 0000000000AE1910
+
+
+END OF TXT
+ 			\Thanks for using our program\
