@@ -1,0 +1,40 @@
+	digraph dump_graph{
+	rankdir=HR;
+	INFO0000000000B813E0 [shape = record, label = " <left> LEFT :\n0000000000B81B70 | <name> ANIMAL | <right> RIGHT :\n0000000000B81D10"];
+	INFO0000000000B81B70 [shape = record, label = " <left> LEFT :\n0000000000B81B90 | <name> GAY | <right> RIGHT :\n0000000000B81BF0"];
+	INFO0000000000B813E0: <left> -> INFO0000000000B81B70: <name> [label = "yes"]
+	INFO0000000000B81B90 [shape = record, label = " <left> LEFT :\n0000000000B81BB0 | <name> TOP BLOGER | <right> RIGHT :\n0000000000B81BD0"];
+	INFO0000000000B81B70: <left> -> INFO0000000000B81B90: <name> [label = "yes"]
+	INFO0000000000B81BB0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> MILOHIN | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81B90: <left> -> INFO0000000000B81BB0: <name> [label = "yes"]
+	INFO0000000000B81BD0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> GUSHIN | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81B90: <right> -> INFO0000000000B81BD0: <name> [label = "no"]
+	INFO0000000000B81BF0 [shape = record, label = " <left> LEFT :\n0000000000B81C10 | <name> HE IS ENIKEEV | <right> RIGHT :\n0000000000B81C70"];
+	INFO0000000000B81B70: <right> -> INFO0000000000B81BF0: <name> [label = "no"]
+	INFO0000000000B81C10 [shape = record, label = " <left> LEFT :\n0000000000B81C30 | <name> HIGHER 1.5 | <right> RIGHT :\n0000000000B81C50"];
+	INFO0000000000B81BF0: <left> -> INFO0000000000B81C10: <name> [label = "yes"]
+	INFO0000000000B81C30 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ERIK | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81C10: <left> -> INFO0000000000B81C30: <name> [label = "yes"]
+	INFO0000000000B81C50 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ASKAR | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81C10: <right> -> INFO0000000000B81C50: <name> [label = "no"]
+	INFO0000000000B81C70 [shape = record, label = " <left> LEFT :\n0000000000B81C90 | <name> NOT DODIK | <right> RIGHT :\n0000000000B81CF0"];
+	INFO0000000000B81BF0: <right> -> INFO0000000000B81C70: <name> [label = "no"]
+	INFO0000000000B81C90 [shape = record, label = " <left> LEFT :\n0000000000B81CB0 | <name> LOVE DORA | <right> RIGHT :\n0000000000B81CD0"];
+	INFO0000000000B81C70: <left> -> INFO0000000000B81C90: <name> [label = "yes"]
+	INFO0000000000B81CB0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ARMAN | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81C90: <left> -> INFO0000000000B81CB0: <name> [label = "yes"]
+	INFO0000000000B81CD0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ROMA | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81C90: <right> -> INFO0000000000B81CD0: <name> [label = "no"]
+	INFO0000000000B81CF0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> MARAT | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81C70: <right> -> INFO0000000000B81CF0: <name> [label = "no"]
+	INFO0000000000B81D10 [shape = record, label = " <left> LEFT :\n0000000000B86720 | <name> DONT LIVE | <right> RIGHT :\n0000000000B86620"];
+	INFO0000000000B813E0: <right> -> INFO0000000000B81D10: <name> [label = "no"]
+	INFO0000000000B86720 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> WORK TABLE | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B81D10: <left> -> INFO0000000000B86720: <name> [label = "yes"]
+	INFO0000000000B86620 [shape = record, label = " <left> LEFT :\n0000000000B86980 | <name> BEAUTIFUL SINGER | <right> RIGHT :\n0000000000B867A0"];
+	INFO0000000000B81D10: <right> -> INFO0000000000B86620: <name> [label = "no"]
+	INFO0000000000B86980 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> DORA | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B86620: <left> -> INFO0000000000B86980: <name> [label = "yes"]
+	INFO0000000000B867A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> GOD | <right> RIGHT :\n0000000000000000"];
+	INFO0000000000B86620: <right> -> INFO0000000000B867A0: <name> [label = "no"]
+	}
