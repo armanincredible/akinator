@@ -1,0 +1,56 @@
+	digraph dump_graph{
+	rankdir=HR;
+	INFO00000000001E13E0 [shape = record, label = " <left> LEFT :\n00000000001E1EC0 | <name> ANIMAL | <right> RIGHT :\n00000000001E6840"];
+	INFO00000000001E1EC0 [shape = record, label = " <left> LEFT :\n00000000001E1EF0 | <name> GAY | <right> RIGHT :\n00000000001E6610"];
+	INFO00000000001E13E0: <left> -> INFO00000000001E1EC0: <name> [label = "yes"]
+	INFO00000000001E1EF0 [shape = record, label = " <left> LEFT :\n00000000001E1F20 | <name> TOP BLOGER | <right> RIGHT :\n00000000001E65E0"];
+	INFO00000000001E1EC0: <left> -> INFO00000000001E1EF0: <name> [label = "yes"]
+	INFO00000000001E1F20 [shape = record, label = " <left> LEFT :\n00000000001E1F50 | <name> WAS HUSBEND OF PUGACHEVA | <right> RIGHT :\n00000000001E65B0"];
+	INFO00000000001E1EF0: <left> -> INFO00000000001E1F20: <name> [label = "yes"]
+	INFO00000000001E1F50 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> KIRKOROV | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E1F20: <left> -> INFO00000000001E1F50: <name> [label = "yes"]
+	INFO00000000001E65B0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> MILOHIN | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E1F20: <right> -> INFO00000000001E65B0: <name> [label = "no"]
+	INFO00000000001E65E0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> GUSHIN | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E1EF0: <right> -> INFO00000000001E65E0: <name> [label = "no"]
+	INFO00000000001E6610 [shape = record, label = " <left> LEFT :\n00000000001E6640 | <name> HE IS ENIKEEV | <right> RIGHT :\n00000000001E66D0"];
+	INFO00000000001E1EC0: <right> -> INFO00000000001E6610: <name> [label = "no"]
+	INFO00000000001E6640 [shape = record, label = " <left> LEFT :\n00000000001E6670 | <name> HIGHER 1.5 | <right> RIGHT :\n00000000001E66A0"];
+	INFO00000000001E6610: <left> -> INFO00000000001E6640: <name> [label = "yes"]
+	INFO00000000001E6670 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ERIK | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6640: <left> -> INFO00000000001E6670: <name> [label = "yes"]
+	INFO00000000001E66A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ASKAR | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6640: <right> -> INFO00000000001E66A0: <name> [label = "no"]
+	INFO00000000001E66D0 [shape = record, label = " <left> LEFT :\n00000000001E6700 | <name> NOT DODIK | <right> RIGHT :\n00000000001E6900"];
+	INFO00000000001E6610: <right> -> INFO00000000001E66D0: <name> [label = "no"]
+	INFO00000000001E6700 [shape = record, label = " <left> LEFT :\n00000000001E6780 | <name> LOVE DORA | <right> RIGHT :\n00000000001E68D0"];
+	INFO00000000001E66D0: <left> -> INFO00000000001E6700: <name> [label = "yes"]
+	INFO00000000001E6780 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ARMAN | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6700: <left> -> INFO00000000001E6780: <name> [label = "yes"]
+	INFO00000000001E68D0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> ROMA | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6700: <right> -> INFO00000000001E68D0: <name> [label = "no"]
+	INFO00000000001E6900 [shape = record, label = " <left> LEFT :\n00000000001E68A0 | <name> DOG | <right> RIGHT :\n00000000001E6960"];
+	INFO00000000001E66D0: <right> -> INFO00000000001E6900: <name> [label = "no"]
+	INFO00000000001E68A0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> HASKI | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6900: <left> -> INFO00000000001E68A0: <name> [label = "yes"]
+	INFO00000000001E6960 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> MARAT | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6900: <right> -> INFO00000000001E6960: <name> [label = "no"]
+	INFO00000000001E6840 [shape = record, label = " <left> LEFT :\n00000000001E6990 | <name> DONT LIVE | <right> RIGHT :\n00000000001E6A50"];
+	INFO00000000001E13E0: <right> -> INFO00000000001E6840: <name> [label = "no"]
+	INFO00000000001E6990 [shape = record, label = " <left> LEFT :\n00000000001E6930 | <name> NEED ELECTRICITY | <right> RIGHT :\n00000000001E6A20"];
+	INFO00000000001E6840: <left> -> INFO00000000001E6990: <name> [label = "yes"]
+	INFO00000000001E6930 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> COMPUTER | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6990: <left> -> INFO00000000001E6930: <name> [label = "yes"]
+	INFO00000000001E6A20 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> WORK TABLE | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6990: <right> -> INFO00000000001E6A20: <name> [label = "no"]
+	INFO00000000001E6A50 [shape = record, label = " <left> LEFT :\n00000000001E69C0 | <name> BEAUTIFUL SINGER | <right> RIGHT :\n00000000001E69F0"];
+	INFO00000000001E6840: <right> -> INFO00000000001E6A50: <name> [label = "no"]
+	INFO00000000001E69C0 [shape = record, label = " <left> LEFT :\n00000000001E6AB0 | <name> RAPER | <right> RIGHT :\n00000000001E67E0"];
+	INFO00000000001E6A50: <left> -> INFO00000000001E69C0: <name> [label = "yes"]
+	INFO00000000001E6AB0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> N.ARMAN | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E69C0: <left> -> INFO00000000001E6AB0: <name> [label = "yes"]
+	INFO00000000001E67E0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> DORA | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E69C0: <right> -> INFO00000000001E67E0: <name> [label = "no"]
+	INFO00000000001E69F0 [shape = record, label = " <left> LEFT :\n0000000000000000 | <name> GOD | <right> RIGHT :\n0000000000000000"];
+	INFO00000000001E6A50: <right> -> INFO00000000001E69F0: <name> [label = "no"]
+	}
